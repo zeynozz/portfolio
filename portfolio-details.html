@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - SnapFolio Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: SnapFolio
+  * Template URL: https://bootstrapmade.com/snapfolio-bootstrap-portfolio-template/
+  * Updated: Jul 21 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+          <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+          <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Project Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <!-- ===== Project: Bachelor Thesis (Accessibility) ===== -->
+    <section id="bt-ilias" class="section project-details" aria-labelledby="bt-ilias-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-ilias-title" class="h1">Investigation of the Accessibility Standards of ILIAS</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">Accessibility</li>
+            <li class="list-inline-item badge bg-secondary">WCAG 2.1</li>
+            <li class="list-inline-item badge bg-secondary">ARIA</li>
+            <li class="list-inline-item badge bg-secondary">Usability Testing</li>
+          </ul>
+        </header>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <!-- Slider / Bilder -->
+            <div class="swiper init-swiper" aria-label="Screenshots carousel">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": 1,
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true }
+                }
+              </script>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/BTPics.png"
+                       alt="Test Setup with Participants"
+                       class="img-fluid">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-ilias-overview-title">
+          <h3 id="bt-ilias-overview-title">Abstract</h3>
+          <p>Ensuring digital accessibility is a key requirement for equitable access to higher education,
+            particularly for individuals with visual impairments. This thesis explores how accessible the
+            ILIAS learning platform truly is by assessing both its compliance with the Web Content Acces-
+            sibility Guidelines (WCAG 2.1) and its practical usability for visually impaired users. A mixed-
+            methods approach was applied, combining automated evaluation with the WAVE tool and
+            empirical user testing. The latter incorporated eye tracking, screen reader interaction using
+            JAWS, and concurrent think-aloud protocols. Participants with varying degrees of visual im-
+            pairment were tasked with navigating course content and completing assessments within IL-
+            IAS. The analysis revealed substantial gaps between formal compliance and functional ac-
+            cessibility, including issues such as insufficient contrast ratios, non-semantic structures, inac-
+            cessible interactive elements, and navigational inconsistencies. Efficiency metrics and System
+            Usability Scale (SUS) results provided further evidence of usability constraints. The findings
+            underscore the need for accessibility to be understood not merely as a technical checklist, but
+            as a user-centred design imperative. Practical design recommendations are derived to support
+            the development of more inclusive, barrier-free learning environments.<br/><br/>
+
+            This work reflects the belief that accessibility is not an add-on, but a core value in the devel-
+            opment of ethical, sustainable technology.
+
+            It serves as a reminder that we, as designers and
+            developers, carry the responsibility to create digital environments where everyone can partic-
+            ipate equally – regardless of ability.
+
+            To align with these principles, this thesis itself was format-
+            ted and reviewed to meet accessibility standards, including screen reader compatibility and
+            structural clarity.
+
+            With this thesis, I hope to contribute to a digital future in which accessibility
+            is viewed not as an optional feature, but as a core right that belongs to everyone.<br/><br/>
+
+            I am honoured that this research was accepted for presentation at the AACE E-Learn World Conference 2025 in Bangkok, where it will contribute to the international dialogue on accessible and inclusive learning technologies. This recognition highlights the broader relevance of the study and underscores the importance of advancing accessibility in digital higher education worldwide.
+
+          </p>
+        </section>
+
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+        <div class="cta-section">
+          <a href="assets/pdf/Bachelor%20Thesis_Zeynep%20Öztürk.pdf" class="btn btn-primary">
+            <i class="bi bi-download"></i>
+            Download Thesis
+          </a>
+        </div><br/>
+          <div class="cta-section">
+            <a href="assets/pdf/AACE.pdf" class="btn btn-primary">
+              <i class="bi bi-download"></i>
+              Download Acceptance Letter
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- PillBuddy Details Section -->
+    <!-- ===== Project: PillBuddy ===== -->
+    <section id="bt-pillbuddy" class="section project-details" aria-labelledby="bt-pillbuddy-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-pillbuddy-title" class="h1">PillBuddy</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">Medication Management</li>
+            <li class="list-inline-item badge bg-secondary">Caregiver Integration</li>
+            <li class="list-inline-item badge bg-secondary">Mobile App</li>
+            <li class="list-inline-item badge bg-secondary">Accessibility</li>
+          </ul>
+        </header>
+
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/portfolio/PillBuddy.png"
+                 alt="Test Setup with Participants"
+                 class="img-fluid">
+          </div>
+        </div><br/><br/>
+
+            <video autoplay loop muted playsinline width="100%">
+              <source src="assets/vids/Mein%20Film%203.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-pillbuddy-overview-title">
+          <h3 id="bt-pillbuddy-overview-title">What is PillBuddy?</h3>
+          <p>Managing medications effectively is a significant challenge for elderly individuals, who
+            often face difficulties due to complex schedules and age-related limitations. Many
+            seniors require multiple medications with varying dosages, timings, and specific
+            instructions, which can become overwhelming. Additionally, age-related memory loss
+            or cognitive decline can lead to missed doses or incorrect medication intake,
+            increasing health risks and complicating their medical care.
+            Medication mismanagement can result in adverse health effects, including worsening
+            symptoms, drug interactions, and increased risk of hospitalization. This not only impacts
+            the individual’s health but also places additional strain on healthcare resources.
+            PillBuddy aims to address these challenges by providing a reliable, easy-to-use
+            platform that empowers elderly users to manage their medications independently.
+            Through clear reminders, a straightforward interface, and options to monitor
+            medication supply, PillBuddy enables seniors to maintain their routines more
+            effectively, ensuring better adherence to prescribed therapies and enhancing overall
+            quality of life.
+          </p>
+        </section>
+
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+          <div class="cta-section">
+            <a href="https://github.com/zeynozz/PillBuddy" class="btn btn-primary">
+              <i class="bi bi-github"></i>
+              Github Project - PillBuddy
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Details Section -->
+    <!-- ===== Project: GALC ===== -->
+    <section id="bt-galc" class="section project-details" aria-labelledby="bt-galc-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-galc-title" class="h1">Gestes à la Carte</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">TypeScript</li>
+            <li class="list-inline-item badge bg-secondary">Camera-Based Application</li>
+            <li class="list-inline-item badge bg-secondary">Accessibility</li>
+            <li class="list-inline-item badge bg-secondary">Responsive Design</li>
+          </ul>
+        </header>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="swiper init-swiper" aria-label="Screenshots carousel">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": 1,
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
+                  "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
+                }
+              </script>
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/GALC.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/galc2.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+              </div>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+
+
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-ilias-overview-title">
+          <h3 id="bt-galc-overview-title">Abstract</h3>
+          <p>The name Gestes à la Carte reflects the core idea of our project: enabling hands-free control
+            of cooking videos through simple gestures. The French phrase "à la carte" is commonly
+            associated with food and customization, which perfectly aligns with the essence of our
+            application. It represents flexibility and accessibility, offering users a seamless experience in
+            managing cooking tutorials while multitasking.
+
+          </p>
+        </section>
+      </div>
+    </section>
+
+
+
+    <!-- Portfolio Details Section -->
+    <!-- ===== Project: AUS ===== -->
+    <section id="bt-aus" class="section project-details" aria-labelledby="bt-aus-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-aus-title" class="h1">Among Us 2.0</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">Multiplayer Game</li>
+            <li class="list-inline-item badge bg-secondary">Enterprise Applications</li>
+            <li class="list-inline-item badge bg-secondary">React</li>
+            <li class="list-inline-item badge bg-secondary">WebSockets</li>
+          </ul>
+        </header>
+
+            <video autoplay loop muted playsinline width="100%">
+              <source src="assets/vids/amongus.mp4" type="video/mp4">
+            </video>
+
+
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-aus-overview-title">
+          <h3 id="bt-aus-overview-title">Abstract</h3>
+          <p>In this project, we implemented a modern and scalable version of the popular multiplayer game Among Us, focusing on both gameplay mechanics and a robust software architecture. The system was divided into a Spring Boot–based backend following a microservices architecture, enabling modularity, maintainability, and scalability, and a React-based frontend to deliver a dynamic, interactive user experience.
+          </p>
+        </section>
+
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+          <div class="cta-section">
+            <a href="https://github.com/zeynozz/AmongUs-Backend" class="btn btn-primary">
+              <i class="bi bi-github"></i>
+              Github Project - Backend
+            </a>
+          </div>
+        </div><br/><br/>
+
+        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+          <div class="cta-section">
+            <a href="https://github.com/zeynozz/AmongUs-Frontend" class="btn btn-primary">
+              <i class="bi bi-github"></i>
+              Github Project - Frontend
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Details Section -->
+    <!-- ===== Project: ARTH ===== -->
+    <section id="bt-arth" class="section project-details" aria-labelledby="bt-arth-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-arth-title" class="h1">ARth</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">AR</li>
+            <li class="list-inline-item badge bg-secondary">Unity</li>
+            <li class="list-inline-item badge bg-secondary">Cinema4D</li>
+            <li class="list-inline-item badge bg-secondary">Markers</li>
+          </ul>
+        </header>
+
+        <video autoplay loop muted playsinline width="100%">
+          <source src="assets/vids/AR.mp4" type="video/mp4">
+        </video>
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-aus-overview-title">
+          <h3 id="bt-arth-overview-title">What is ARth?</h3>
+          <p>ARTH is an Augmented Reality learning concept designed to transform static school textbooks into interactive, engaging experiences. Instead of relying on flat diagrams and long text, students can scan markers in their books to unlock 3D models, animated Earth layers, interactive globes, and even gamified quizzes. The goal is to make learning subjects like geography more visual, dynamic, and fun while keeping students connected to their physical books. Using tools like Unity, Vuforia, and Cinema 4D, ARTH blends education with AR technology to create a multi-sensory, game-like approach to learning that improves engagement, motivation, and understanding.
+          </p>
+        </section>
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/eeX3yRYWWG9HCJxgWQMZiv/ARTH---Augmented-Reality-Project?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+      </div>
+    </section>
+
+
+    <!-- Portfolio Details Section -->
+    <!-- ===== Project: AstroBreaker ===== -->
+    <section id="bt-abr" class="section project-details" aria-labelledby="bt-abr-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-abr-title" class="h1">Astro Breaker</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">Unity</li>
+            <li class="list-inline-item badge bg-secondary">Cinema4D</li>
+            <li class="list-inline-item badge bg-secondary">Serious Game</li>
+            <li class="list-inline-item badge bg-secondary">Game Juice</li>
+          </ul>
+        </header>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="swiper init-swiper" aria-label="Screenshots carousel">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": 1,
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
+                  "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
+                }
+              </script>
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/compgraph.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/astrobrr.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <video autoplay loop muted playsinline class="img-fluid">
+                    <source src="assets/vids/Brick_Combo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="swiper-slide">
+                  <video autoplay loop muted playsinline class="img-fluid">
+                    <source src="assets/vids/Brick_Explosion.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+
+        <video autoplay loop muted playsinline width="100%">
+          <source src="assets/vids/" type="video/mp4">
+        </video>
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-aus-overview-title">
+          <h3 id="bt-abr-overview-title">Astro Breaker?</h3>
+          <p>Astro Breaker is a space-themed Breakout game developed by Ilayda, Zeynep, and Mathani to combine learning and fun for students aged 10–14. Players destroy asteroids with an energy ball and solve math problems in addition, subtraction, or multiplication after each hit. Correct answers reward players with explosions and bonuses, while mistakes provide constructive feedback. Levels are colour-coded (green–addition, orange–subtraction, red–multiplication) with increasing difficulty. To boost engagement, the team integrated “game juice” such as visual effects, alien rewards, camera shake, and immersive sounds. While not yet classroom-tested, the game shows strong educational potential, with future updates planned for division, word puzzles, and multiplayer.
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <!-- Portfolio Details Section -->
+    <!-- ===== Project: Gestive ===== -->
+    <section id="bt-gestive" class="section project-details" aria-labelledby="bt-gestive-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-gestive-title" class="h1">Gestive</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">Python</li>
+            <li class="list-inline-item badge bg-secondary">MediaPipe</li>
+            <li class="list-inline-item badge bg-secondary">OpenCV</li>
+            <li class="list-inline-item badge bg-secondary">Game Juice</li>
+          </ul>
+        </header>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="swiper init-swiper" aria-label="Screenshots carousel">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": 1,
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
+                  "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
+                }
+              </script>
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/Gestive.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/hackathon.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-aus-overview-title">
+          <h3 id="bt-gestive-overview-title">Gesture + Interactive = Gestive</h3>
+          <p>Developed an accessible video player using Python, MediaPipe, and OpenCV, enabling play, pause, and volume control through hand gestures. Focused on backend logic and performance, creating an inclusive solution for users with motor impairments.
+          </p>
+        </section>
+      </div>
+    </section>
+
+    <!-- Portfolio Details Section -->
+    <!-- ===== Project: Journey ===== -->
+    <section id="bt-journey" class="section project-details" aria-labelledby="bt-journey-title">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <header class="mb-4">
+          <h2 id="bt-journey-title" class="h1">Journey</h2>
+          <ul class="list-inline mb-0" aria-label="Project tags">
+            <li class="list-inline-item badge bg-secondary">Jakarte EE</li>
+            <li class="list-inline-item badge bg-secondary">Leaflet - OpenRouteService</li>
+            <li class="list-inline-item badge bg-secondary">jBCrypt </li>
+            <li class="list-inline-item badge bg-secondary">Selenium</li>
+          </ul>
+        </header>
+
+        <video id="myVideo" autoplay loop muted playsinline width="100%">
+          <source src="assets/vids/journey.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video><br/><br/>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-8">
+            <div class="swiper init-swiper" aria-label="Screenshots carousel">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": 1,
+                  "pagination": { "el": ".swiper-pagination", "type": "bullets", "clickable": true },
+                  "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" }
+                }
+              </script>
+
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/c4.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/journeyproto.png" alt="Test Setup with Participants" class="img-fluid">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          const vid = document.getElementById("myVideo");
+          vid.playbackRate = 3;
+        </script>
+        </div>
+        <hr class="my-5" aria-hidden="true">
+
+        <section aria-labelledby="bt-aus-overview-title">
+          <h3 id="bt-journey-overview-title">What is Journey?</h3>
+          <p>Journey is a website for users that enjoy hiking and would like to discover more. They can document
+            and share hikes they have undertaken and/or plan future hikes. While any user can search for hikes by submitting keywords, for example cities or areas, registered users have access to further services like uploading new hiking path entries and writing comments.
+          </p>
+        </section>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
